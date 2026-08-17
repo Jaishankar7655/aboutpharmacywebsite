@@ -244,5 +244,3 @@ All images are served from `public/`, so their production URL begins with `https
 - `public/plugins/google-map/images/` — map marker asset.
 
 Example: `public/images/slider/slider1.jpeg` is hosted at [https://trubapharmacy.com/images/slider/slider1.jpeg](https://trubapharmacy.com/images/slider/slider1.jpeg).
-#   a b o u t p h a r m a c y w e b s i t e  
- 
