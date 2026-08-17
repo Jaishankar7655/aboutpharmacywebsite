@@ -4,9 +4,6 @@ Production website: [https://trubapharmacy.com/](https://trubapharmacy.com/)
 
 This Vite + React single-page website provides institute information, courses, admissions, academics, e-learning material, notices, facilities, research, placements and contact information.
 
-## GoDaddy deployment and refresh fix
-
-`public/.htaccess` is copied to `dist/.htaccess` during build. Upload the **contents of `dist/`**, including this hidden `.htaccess` file, to GoDaddy's `public_html`. It returns React's `index.html` for a direct visit or refresh on routes such as `/admission` and `/bpharm-year-3`, but lets actual files such as PDFs load normally. This resolves the GoDaddy 500/error page on refresh.
 
 ## Website pages
 
@@ -51,14 +48,8 @@ Every PDF in `public/pdfChnges/` is linked to a public website page and is avail
 | `public/images/placementData/` | Career guidance and historical placement reports. |
 | `public/images/about/` | Policies, outcomes, IIC, IAEC and anti-ragging documents. |
 
-## Commands
 
-```bash
-npm install
-npm run dev
-npm run build
-npm run lint
-```
+
 
 ## Complete public PDF catalog
 
